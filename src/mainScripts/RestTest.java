@@ -15,6 +15,7 @@ public class RestTest {
 	@Test
 	public void test() throws JSONException, BiffException, IOException{
 		
+		//sending GET request and asserting the RESPONSE code
 		APIMethods.getJSONResponse(sheetName, uniqueValue);
 	}
 	
